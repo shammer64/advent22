@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a410042e-11a4-4625-ae30-1cdd61c75791" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day4/Day4App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day4/SectionAnalyzer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day4_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day4/SectionAnalyzerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day2/RPSApp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rochambeau_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day1/CaloriesTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day1/CaloriesTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/calories_input.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +88,13 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="dev.scotthammer.advent22.day4" />
       <recent name="dev.scotthammer.advent22.day3" />
       <recent name="dev.scotthammer.advent22.day2" />
       <recent name="dev.scotthammer.advent22.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day3App">
+  <component name="RunManager" selected="Kotlin.Day4App">
     <configuration name="Tests in 'advent22.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,10 +130,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day4App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day4.Day4App" />
+      <module name="advent22.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day3App" />
+        <item itemvalue="Kotlin.Day4App" />
         <item itemvalue="Gradle.Tests in 'advent22.test'" />
+        <item itemvalue="Kotlin.Day3App" />
         <item itemvalue="Kotlin.Day2App" />
       </list>
     </recent_temporary>
