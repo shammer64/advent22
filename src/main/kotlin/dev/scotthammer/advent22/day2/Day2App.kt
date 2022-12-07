@@ -1,12 +1,12 @@
 package dev.scotthammer.advent22.day2
 
-object RPSApp {
+object Day2App {
 
     @JvmStatic fun main(args: Array<String>) {
         // Question 1
         val rpsGame = RockPaperScissors()
         var input: Array<String> = rpsGame::class.java
-            .getResourceAsStream("/rochambeau_input.txt")
+            .getResourceAsStream("/day2_input.txt")
             .bufferedReader().readLines().toTypedArray()
 
         for (round in input) {

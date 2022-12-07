@@ -13,7 +13,7 @@ class CaloriesTest {
 
     @BeforeAll
     internal fun setUp() {
-        fileInput = readFromInputFile("/calories_input.txt")
+        fileInput = readFromInputFile("/day1_input.txt")
     }
 
     @Test

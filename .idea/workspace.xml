@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a410042e-11a4-4625-ae30-1cdd61c75791" name="Changes" comment="Initial Commit" />
+    <list default="true" id="a410042e-11a4-4625-ae30-1cdd61c75791" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day2/RPSApp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rochambeau_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day1/CaloriesTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day1/CaloriesTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/calories_input.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -67,9 +74,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -81,11 +88,12 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="dev.scotthammer.advent22.day3" />
       <recent name="dev.scotthammer.advent22.day2" />
       <recent name="dev.scotthammer.advent22.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.RPSApp">
+  <component name="RunManager" selected="Kotlin.Day3App">
     <configuration name="Tests in 'advent22.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -107,8 +115,15 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RPSApp" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day2.RPSApp" />
+    <configuration name="Day2App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day2.Day2App" />
+      <module name="advent22.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day3App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day3.Day3App" />
       <module name="advent22.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,8 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.RPSApp" />
+        <item itemvalue="Kotlin.Day3App" />
         <item itemvalue="Gradle.Tests in 'advent22.test'" />
+        <item itemvalue="Kotlin.Day2App" />
       </list>
     </recent_temporary>
   </component>
@@ -154,12 +170,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="GradleRunConfiguration">
-        <watch expression="p1Play.ordinal - p2Play.ordinal" language="kotlin" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
