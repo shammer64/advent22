@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a410042e-11a4-4625-ae30-1cdd61c75791" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day4/Day4App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day4/SectionAnalyzer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day4_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day4/SectionAnalyzerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/AdventSolver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day5/CrateStacker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day5/Day5App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day5_input_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day5_input_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day6_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day5/CrateStackerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -77,24 +80,30 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/scotthammer/Projects/AdventOfCode/advent22/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="dev.scotthammer.advent22.day5" />
       <recent name="dev.scotthammer.advent22.day4" />
       <recent name="dev.scotthammer.advent22.day3" />
       <recent name="dev.scotthammer.advent22.day2" />
       <recent name="dev.scotthammer.advent22.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day4App">
+  <component name="RunManager" selected="Kotlin.Day5App">
     <configuration name="Tests in 'advent22.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,10 +146,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day5App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day5.Day5App" />
+      <module name="advent22.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day4App" />
+        <item itemvalue="Kotlin.Day5App" />
         <item itemvalue="Gradle.Tests in 'advent22.test'" />
+        <item itemvalue="Kotlin.Day4App" />
         <item itemvalue="Kotlin.Day3App" />
         <item itemvalue="Kotlin.Day2App" />
       </list>
@@ -179,5 +196,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day5/CrateStacker.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
