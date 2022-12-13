@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a410042e-11a4-4625-ae30-1cdd61c75791" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day8/Day8App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day8/TreeVisibility.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day8_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day8/TreeVisibilityTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day10/SignalSensor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day9/Day9App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dev/scotthammer/advent22/day9/RopeMotion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day10_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day9_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day10/SignalSensorTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dev/scotthammer/advent22/day9/RopeMotionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/day10_test_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -83,18 +87,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/scotthammer/Projects/AdventOfCode/advent22/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/scotthammer/Projects/AdventOfCode/advent22/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -104,36 +108,15 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="dev.scotthammer.advent22.day10" />
+      <recent name="dev.scotthammer.advent22.day9" />
       <recent name="dev.scotthammer.advent22.day8" />
       <recent name="dev.scotthammer.advent22.day7" />
       <recent name="dev.scotthammer.advent22.day6" />
-      <recent name="dev.scotthammer.advent22.day5" />
-      <recent name="dev.scotthammer.advent22.day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day8App">
-    <configuration name="Tests in 'advent22.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TreeVisibilityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SignalSensorTest">
+    <configuration name="SignalSensorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +129,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dev.scotthammer.advent22.day8.TreeVisibilityTest&quot;" />
+            <option value="&quot;dev.scotthammer.advent22.day10.SignalSensorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,48 +139,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="advent22 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Day7App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day7.Day7App" />
+    <configuration name="Day9App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day9.Day9App" />
       <module name="advent22.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day8App" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.scotthammer.advent22.day8.Day8App" />
-      <module name="advent22.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Gradle.SignalSensorTest" />
+      <item itemvalue="Kotlin.Day9App" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day8App" />
-        <item itemvalue="Gradle.TreeVisibilityTest" />
-        <item itemvalue="Kotlin.Day7App" />
-        <item itemvalue="Gradle.advent22 [clean]" />
-        <item itemvalue="Gradle.Tests in 'advent22.test'" />
+        <item itemvalue="Gradle.SignalSensorTest" />
+        <item itemvalue="Kotlin.Day9App" />
       </list>
     </recent_temporary>
   </component>
