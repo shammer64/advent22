@@ -2,8 +2,8 @@ package dev.scotthammer.advent22.day10
 
 class SignalSensor(input: Array<String>) {
     private var cycle: Int = 0
-    var register: Long = 1
-    var signalStrength: Long = 0
+    private var register: Long = 1
+    val signalStrength: Long
         get() = calculateSignalStrength()
     private val reportList = mutableListOf<Long>()
 
@@ -14,14 +14,12 @@ class SignalSensor(input: Array<String>) {
                 'n' -> {
                     incrementCycle()
                 }
-
                 'a' -> {
                     incrementCycle()
                     incrementCycle()
                     val increment = command.substring(5).toLong()
                     register += increment
                 }
-
                 else -> {}
             }
         }
@@ -37,7 +35,7 @@ class SignalSensor(input: Array<String>) {
         return cycle * register
     }
 
-    fun getReport(): List<Long> {
+    fun getReports(): List<Long> {
         return reportList
     }
 

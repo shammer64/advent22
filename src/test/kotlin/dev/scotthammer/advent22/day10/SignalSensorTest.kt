@@ -54,8 +54,8 @@ class SignalSensorTest {
         )
         val ss = SignalSensor(input)
 
-        assertEquals(1, ss.getReport().size)
-        assertEquals(420, ss.getReport()[0])
+        assertEquals(1, ss.getReports().size)
+        assertEquals(420, ss.getReports()[0])
     }
 
     @Test
@@ -63,13 +63,13 @@ class SignalSensorTest {
         val input = AdventSolver.parseInputFile("/day10_test_input.txt")
         val ss = SignalSensor(input)
 
-        assertEquals(6, ss.getReport().size)
-        assertEquals(420, ss.getReport()[0])
-        assertEquals(1140, ss.getReport()[1])
-        assertEquals(1800, ss.getReport()[2])
-        assertEquals(2940, ss.getReport()[3])
-        assertEquals(2880, ss.getReport()[4])
-        assertEquals(3960, ss.getReport()[5])
+        assertEquals(6, ss.getReports().size)
+        assertEquals(420, ss.getReports()[0])
+        assertEquals(1140, ss.getReports()[1])
+        assertEquals(1800, ss.getReports()[2])
+        assertEquals(2940, ss.getReports()[3])
+        assertEquals(2880, ss.getReports()[4])
+        assertEquals(3960, ss.getReports()[5])
     }
 
 }
