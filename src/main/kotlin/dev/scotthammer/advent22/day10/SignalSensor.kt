@@ -7,9 +7,24 @@ class SignalSensor(input: Array<String>) {
         get() = calculateSignalStrength()
 
     init {
-        for (command in input)
-            cycle += 1
+        for (command in input) {
+            when (command[0]) {
+                'n' -> {
+                    cycle += 1
+                }
+
+                'a' -> {
+                    cycle += 1
+                    cycle += 1
+                    val increment = command.substring(5).toLong()
+                    register += increment
+                }
+
+                else -> {}
+            }
+        }
     }
+
     private fun calculateSignalStrength(): Long {
         return cycle * register
     }
