@@ -20,10 +20,17 @@ class SignalSensorTest {
     }
 
     @Test
-    fun singleAddxCommandSignalStrengthIsOne() {
+    fun singleAddxCommandSignalStrengthIs22() {
         val ss = SignalSensor(arrayOf<String>("addx 10"))
 
         assertEquals(22, ss.signalStrength)
+    }
+
+    @Test
+    fun twoAddxCommandSignalStrengthIsOne() {
+        val ss = SignalSensor(arrayOf<String>("addx 10", "addx 7"))
+
+        assertEquals(72, ss.signalStrength)
     }
 
     @Test
@@ -35,6 +42,19 @@ class SignalSensorTest {
         val ss = SignalSensor(noopArray.toTypedArray())
 
         assertEquals(numNoops, ss.signalStrength)
+    }
+
+    @Test
+    fun shouldReportSignalStrengthOn20thCycle() {
+        val input = arrayOf(
+            "addx 15", "addx -11", "addx 6", "addx -3",
+            "addx 5", "addx -1", "addx -8", "addx 13",
+            "addx 4", "noop", "addx -1",
+        )
+        val ss = SignalSensor(input)
+
+        assertEquals(1, ss.getReport().size)
+        assertEquals(420, ss.getReport()[0])
     }
 
 }

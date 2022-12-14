@@ -5,17 +5,19 @@ class SignalSensor(input: Array<String>) {
     var register: Long = 1
     var signalStrength: Long = 0
         get() = calculateSignalStrength()
+    private val reportList = mutableListOf<Long>()
+
 
     init {
         for (command in input) {
             when (command[0]) {
                 'n' -> {
-                    cycle += 1
+                    incrementCycle()
                 }
 
                 'a' -> {
-                    cycle += 1
-                    cycle += 1
+                    incrementCycle()
+                    incrementCycle()
                     val increment = command.substring(5).toLong()
                     register += increment
                 }
@@ -25,8 +27,18 @@ class SignalSensor(input: Array<String>) {
         }
     }
 
+    private fun incrementCycle() {
+        cycle += 1
+        if (cycle == 20)
+            reportList.add(this.signalStrength)
+    }
+
     private fun calculateSignalStrength(): Long {
         return cycle * register
+    }
+
+    fun getReport(): List<Long> {
+        return reportList
     }
 
 }
