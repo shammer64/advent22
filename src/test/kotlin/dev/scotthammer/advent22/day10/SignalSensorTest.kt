@@ -12,4 +12,11 @@ class SignalSensorTest {
         assertEquals(0, ss.signalStrength)
     }
 
+    @Test
+    fun singleNoopCommandSignalStrengthIsOne() {
+        val ss = SignalSensor(arrayOf<String>("noop"))
+
+        assertEquals(1, ss.signalStrength)
+    }
+
 }
