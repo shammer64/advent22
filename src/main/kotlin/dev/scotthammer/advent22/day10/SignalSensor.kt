@@ -7,7 +7,6 @@ class SignalSensor(input: Array<String>) {
         get() = calculateSignalStrength()
     private val reportList = mutableListOf<Long>()
 
-
     init {
         for (command in input) {
             when (command[0]) {
