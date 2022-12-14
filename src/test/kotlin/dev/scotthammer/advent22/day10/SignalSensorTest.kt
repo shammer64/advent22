@@ -1,5 +1,6 @@
 package dev.scotthammer.advent22.day10
 
+import dev.scotthammer.advent22.AdventSolver
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -55,6 +56,20 @@ class SignalSensorTest {
 
         assertEquals(1, ss.getReport().size)
         assertEquals(420, ss.getReport()[0])
+    }
+
+    @Test
+    fun shouldReportSignalStrengthTestInputsFile() {
+        val input = AdventSolver.parseInputFile("/day10_test_input.txt")
+        val ss = SignalSensor(input)
+
+        assertEquals(6, ss.getReport().size)
+        assertEquals(420, ss.getReport()[0])
+        assertEquals(1140, ss.getReport()[1])
+        assertEquals(1800, ss.getReport()[2])
+        assertEquals(2940, ss.getReport()[3])
+        assertEquals(2880, ss.getReport()[4])
+        assertEquals(3960, ss.getReport()[5])
     }
 
 }

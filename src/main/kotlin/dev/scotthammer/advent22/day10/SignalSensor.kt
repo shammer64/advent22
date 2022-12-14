@@ -29,7 +29,7 @@ class SignalSensor(input: Array<String>) {
 
     private fun incrementCycle() {
         cycle += 1
-        if (cycle == 20)
+        if (cycle % 40 == 20)
             reportList.add(this.signalStrength)
     }
 
